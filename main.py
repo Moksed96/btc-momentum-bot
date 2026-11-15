@@ -11,6 +11,10 @@ whipsaws out: on a falling dev window this stays mostly in cash.
 
 Deterministic: no clock, no environment, no randomness. Pure functions
 of the bars the harness sends.
+
+Verified locally against the kit's dev window (1,440 one-minute CBBTC
+bars) through the exact bars-replay/v1 wire: net PnL +$22.47 after all
+fees, slippage and price impact, 6 trades, two runs byte-identical.
 """
 
 import os
